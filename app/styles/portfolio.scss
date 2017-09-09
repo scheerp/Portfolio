@@ -1,0 +1,22 @@
+.shuffle {
+    float: right;
+    &:before {
+        content: "";
+    }
+}
+
+.grid {
+    margin-left: 3em;
+    width: 100%;
+}
+
+.thumb{
+    max-width: $grid-width;
+    height: auto;
+}
+
+.grid-item {
+    float: left;
+    width: $grid-width;
+    height: $grid-heigth;
+}

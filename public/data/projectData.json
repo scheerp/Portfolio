@@ -1,0 +1,226 @@
+[
+  {
+    "id": "flame",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "3D Cellshading Flame",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This is a project I created in Cinema4D. I used Cellshading to add a flat look to a 3-dimensional Object.",
+      "img1": "assets/flame/img1.jpg",
+      "thumb1": "assets/flame/thumb/img1.jpg",
+      "img2": "assets/flame/img2.png",
+      "thumb2": "assets/flame/thumb/img2.jpg",
+      "img3": "assets/flame/img3.jpg",
+      "thumb3": "assets/flame/thumb/img3.jpg",
+      "video1": "assets/flame/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "logo",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "Logo Animation",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This is a project I created in Cinema4D. It´s an animated logo for the Domino-Project.",
+      "img1": "assets/logo/img1.jpg",
+      "thumb1": "assets/logo/thumb/img1.jpg",
+      "img2": "assets/logo/img2.png",
+      "thumb2": "assets/logo/thumb/img2.jpg",
+      "img3": "assets/logo/img3.jpg",
+      "thumb3": "assets/logo/thumb/img3.jpg",
+      "video1": "assets/logo/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "bubbleEqualizer",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "Bubble Equalizer",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"The size and colour of the spheres are driven entirely by sound. Music had to be removed due to copyright issuses. This project was made in Cinema4D.",
+      "img1": "assets/bubbleEqualizer/img1.jpg",
+      "thumb1": "assets/bubbleEqualizer/thumb/img1.jpg",
+      "img2": "assets/bubbleEqualizer/img2.jpg",
+      "thumb2": "assets/bubbleEqualizer/thumb/img2.jpg",
+      "img3": "assets/bubbleEqualizer/img3.jpg",
+      "thumb3": "assets/bubbleEqualizer/thumb/img3.jpg",
+      "video1": "assets/bubbleEqualizer/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "gmh",
+    "type": ["code"],
+    "show": true,
+    "hoverText": "Geschenk mit Herz App",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This App was made by a group of eight students, I was part of the Frontend-Team. Geschenk mit Herz is a project by Humedica where people can donate Christmas gifts to children around the world. The App allows the user to register and track his present. Once the presend has arrived, the user will recieve a picture of it in the hands of a happy child. The app is currently in a Beta-Stadium and will be available for Android and IOS.",
+      "img1": "assets/gmh/img1.jpg",
+      "thumb1": "assets/gmh/thumb/img1.jpg",
+      "img2": "assets/gmh/img2.jpg",
+      "thumb2": "assets/gmh/thumb/img2.jpg",
+      "img3": "assets/gmh/img3.jpg",
+      "thumb3": "assets/gmh/thumb/img3.jpg",
+      "video1": "assets/gmh/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "domino",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "Domino",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This Project was made in Cinema 4D by a group of three Students.",
+      "img1": "assets/domino/img1.jpg",
+      "thumb1": "assets/domino/thumb/img1.jpg",
+      "img2": "assets/domino/img2.jpg",
+      "thumb2": "assets/domino/thumb/img2.jpg",
+      "img3": "assets/domino/img3.jpg",
+      "thumb3": "assets/domino/thumb/img3.jpg",
+      "video1": "assets/domino/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "visualMusic",
+    "type": ["design"],
+    "show": true,
+    "hoverText": "Music Visualisation",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"The three posters are visualisatizing two songs. Teufelsleiter - by Brandt Brauer Frick, and Boing Boom Tschack - by Kraftwerk.",
+      "img1": "assets/visualMusic/img1.jpg",
+      "thumb1": "assets/visualMusic/thumb/img1.jpg",
+      "img2": "assets/visualMusic/img2.jpg",
+      "thumb2": "assets/visualMusic/thumb/img2.jpg",
+      "img3": "assets/visualMusic/img3.jpg",
+      "thumb3": "assets/visualMusic/thumb/img3.jpg",
+      "video1": "",
+      "type1": ""
+    }
+  },
+  {
+    "id": "musicVideo",
+    "type": ["video"],
+    "show": true,
+    "hoverText": "Music Video - Perspektiv",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This musicvideo was made using exclusively single photographs and carefully place them frame by frame.",
+      "img1": "assets/musicVideo/img1.jpg",
+      "thumb1": "assets/musicVideo/thumb/img1.jpg",
+      "img2": "assets/musicVideo/img2.jpg",
+      "thumb2": "assets/musicVideo/thumb/img2.jpg",
+      "img3": "assets/musicVideo/img3.jpg",
+      "thumb3": "assets/musicVideo/thumb/img3.jpg",
+      "video1": "assets/musicVideo/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "paperPlane",
+    "type": ["video", "3D"],
+    "show": true,
+    "hoverText": "3D Cellshading Paperplane",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This project combines realistic looking clouds with a cellshaded paperplane with cartoonish outlines. It was made in Cinema 4D.",
+      "img1": "assets/paperPlane/img1.jpg",
+      "thumb1": "assets/paperPlane/thumb/img1.jpg",
+      "img2": "assets/paperPlane/img2.jpg",
+      "thumb2": "assets/paperPlane/thumb/img2.jpg",
+      "img3": "assets/paperPlane/img3.jpg",
+      "thumb3": "assets/paperPlane/thumb/img3.jpg",
+      "video1": "assets/paperPlane/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "metamorph",
+    "type": ["video", "design"],
+    "show": true,
+    "hoverText": "Metamorph",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This Project takes animated characters, backgrounds and synthesizer sounds from a library, and randomly creates animations. The project was made by students, and the video is an example.",
+      "img1": "assets/metamorph/img1.jpg",
+      "thumb1": "assets/metamorph/thumb/img1.jpg",
+      "img2": "assets/metamorph/img2.jpg",
+      "thumb2": "assets/metamorph/thumb/img2.jpg",
+      "img3": "assets/metamorph/img3.jpg",
+      "thumb3": "assets/metamorph/thumb/img3.jpg",
+      "video1": "assets/metamorph/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  }
+]

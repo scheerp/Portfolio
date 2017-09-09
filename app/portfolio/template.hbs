@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h2 class="header">portfolio</h2>
+</div>
+
+
+<div class="content-wrapper">
+  <div class="filters-button-group">
+    <button class="shuffle button" {{action "sortProjects" 'all'}}><h3>all</h3></button>
+    <button class="shuffle button" {{action "sortProjects" '3D'}}><h3>3D</h3></button>
+    <button class="shuffle button" {{action "sortProjects" 'video'}}><h3>video</h3></button>
+    <button class="shuffle button" {{action "sortProjects" 'code'}}><h3>code</h3></button>
+    <button class="shuffle button" {{action "sortProjects" 'design'}}><h3>design</h3></button>
+  </div>
+
+  <div class="grid">
+    {{#liquid-bind model as |currentModel|}}
+      {{#each currentModel as |project|}}
+      {{#if project.show}}
+        <div class="grid-item" data-project-id={{project.id}}>
+          <div class="hovereffect">
+            <img src={{project.detail.thumb1}}>
+            <div class="overlay">
+              <div class = "overlay-data grid-item">
+                <p>
+                  <h3>{{project.hoverText}}</h3>
+                  {{#link-to 'project' project.id}}<a href="#" class="info">details</a>{{/link-to}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+      {{/each}}
+    {{/liquid-bind}}
+  </div>
+</div>

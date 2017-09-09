@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+$main-color: #44C282;
+
+$grid-heigth: 274px;
+$grid-width: $grid-heigth * (16 / 9);
+
+
+@import "bootstrap.min.scss";
+@import "main.scss";
+@import "about.scss";
+@import "contact.scss";
+@import "portfolio.scss";
+@import "portfolio-content.scss";
+@import "hover-effect.scss";
+@import "project.scss";
