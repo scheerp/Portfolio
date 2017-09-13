@@ -1,10 +1,5 @@
 @media only screen and (min-width : 320px) {
 
-  #rbtv{
-    width: 5rem;
-    height: 5.7rem;
-  }
-
   a:link, a:visited{
     text-decoration: none;
     color: black;
@@ -21,13 +16,11 @@
     color: white;
   }
 
-
-
     .header {
       font-size: 5rem;
       margin-bottom: 5rem;
       margin-top: 2rem;
-      margin-left: 10%
+      margin-left: 17%
     }
 
     .top-menu {
@@ -42,14 +35,23 @@
     }
 
     .top-menu-button {
-        color: $main-color;
+        color: black;
         font-family: 'Roboto', sans-serif;
         font-size: 3;
-        padding: 1% 1% 0.2% 1%;
+        padding: 1% 2% 1% 2%;
         margin-bottom: 0;
-
     }
 
+    button:hover{
+        text-decoration: none;
+        color: $main-color;
+      }
+    
+      button:active{
+        text-decoration: none;
+        background-color: $main-color;
+        color: white;
+      }
 
     .filters-button-group{
         display: flex;
@@ -67,9 +69,7 @@
         width: 20%;
         background-color: white ;
         border: none;
-        margin-right: 1%;
     }
-
 
     .welcome {
         margin-top: 10%;
@@ -85,15 +85,20 @@
     }
 
     .content-wrapper {
-        margin: 0 8% 0 8%;
+        margin: 0 17% 0 17%;
         padding-bottom: 12%;
         display: flex;
         flex-direction: column;
         border-bottom-style: none;
+
+        &__about {
+            margin: 0 17% 0 17%;
+            padding-bottom: 12%;
+            display: flex;
+            flex-direction: row;
+            border-bottom-style: none;
+        }
     }
-
-
-
 
     * { box-sizing: border-box; }
 
@@ -106,22 +111,20 @@
         max-height: 80%;
         margin: 2% 0 2% 0;
     }
-
 }
 
 @media only screen and (max-height : 480px) {
 }
 
 @media only screen and (min-width : 480px) {
-
 }
 
 @media only screen and (min-width : 768px) {
 
-
     .filters-button-group{
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
+        justify-content: space-around;
         min-width: 4%;
         width: auto;
 
@@ -137,7 +140,7 @@
 
 
     .content-wrapper {
-        flex-direction: row;
+        flex-direction: column;
     }
     .content{
         display: none;

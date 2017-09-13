@@ -1,0 +1,36 @@
+{{#if model.highlight.video}}
+    {{#if model.detail.isVideo1}}
+    <video witdth="100%" height="auto" poster="{{model.detail.img1}}" Autoplay controls preload loop>
+        <source src={{model.detail.video1}} type={{model.detail.videoType}}>
+    </video>
+    {{else}}
+    <img class="highlight" src={{model.detail.img1}}>
+    {{/if}}
+{{else if model.highlight.img2}}
+    {{#if model.detail.isVideo2}}
+    <video witdth="100%" height="auto" poster="{{model.detail.img2}}" Autoplay controls preload loop>
+        <source src={{model.detail.video2}} type={{model.detail.videoType}}>
+    </video>
+    {{else}}
+    <img class="highlight" src={{model.detail.img2}}>
+    {{/if}}
+{{else if model.highlight.img3}}
+    {{#if model.detail.isVideo3}}
+    <video witdth="100%" height="auto" poster="{{model.detail.img3}}" Autoplay controls preload loop>
+        <source src={{model.detail.video3}} type={{model.detail.videoType}}>
+    </video>
+    {{else}}
+    <img class="highlight" src={{model.detail.img3}}>
+    {{/if}}
+{{/if}}
+<div class="picture-bar">
+    <img class="bar-item" {{action "setVideo"}} src={{model.detail.thumb1}}>
+    <img class="bar-item" {{action "setImg2"}} src={{model.detail.thumb2}}>
+    <img class="bar-item" {{action "setImg3"}} src={{model.detail.thumb3}}>
+</div>
+
+<h3 class="jumbotron">
+{{model.detail.description}}
+</h3>
+
+{{yield}}
