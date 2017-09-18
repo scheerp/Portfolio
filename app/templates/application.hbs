@@ -1,15 +1,21 @@
-<div class="top-menu">
-  {{#link-to 'portfolio' class='top-menu-button'}}
-    portfolio
-  {{/link-to}}
+<div class="content">
+  <div class="top-menu">
+    {{#link-to 'portfolio' class='top-menu-button'}}
+      Patrick<span style="font-weight:700">Scheer</span>
+    {{/link-to}}
 
-  {{#link-to 'about' class='top-menu-button'}}
-    about
-  {{/link-to}}
+    {{#link-to 'portfolio' class='top-menu-button'}}
+      portfolio
+    {{/link-to}}
 
-  {{#link-to 'contact' class='top-menu-button'}}
-    contact
-  {{/link-to}}
+    {{#link-to 'about' class='top-menu-button'}}
+      about
+    {{/link-to}}
+
+    {{#link-to 'contact' class='top-menu-button'}}
+      contact
+    {{/link-to}}
+  </div>
+
+  {{outlet}}
 </div>
-
-{{liquid-outlet}}

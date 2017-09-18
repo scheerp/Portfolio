@@ -4,6 +4,7 @@
     "type": ["3D", "video"],
     "show": true,
     "hoverText": "3D Cellshading Flame",
+    "gridSize": "tall",
     "highlight":
     {
       "img2": false,
@@ -25,35 +26,11 @@
     }
   },
   {
-    "id": "logo",
-    "type": ["3D", "video"],
-    "show": true,
-    "hoverText": "Logo Animation",
-    "highlight":
-    {
-      "img2": false,
-      "img3": false,
-      "video": true
-    },
-    "detail":
-    {
-      "description":"This is a project I created in Cinema4D. It´s an animated logo for the Domino-Project.",
-      "img1": "assets/logo/img1.jpg",
-      "thumb1": "assets/logo/thumb/img1.jpg",
-      "img2": "assets/logo/img2.png",
-      "thumb2": "assets/logo/thumb/img2.jpg",
-      "img3": "assets/logo/img3.jpg",
-      "thumb3": "assets/logo/thumb/img3.jpg",
-      "video1": "assets/logo/video.mp4",
-      "type1": "video/mp4",
-      "isVideo1": true
-    }
-  },
-  {
     "id": "bubbleEqualizer",
     "type": ["3D", "video"],
     "show": true,
     "hoverText": "Bubble Equalizer",
+    "gridSize": "wide",
     "highlight":
     {
       "img2": false,
@@ -79,6 +56,7 @@
     "type": ["code"],
     "show": true,
     "hoverText": "Geschenk mit Herz App",
+    "gridSize": "tall",
     "highlight":
     {
       "img2": false,
@@ -100,59 +78,11 @@
     }
   },
   {
-    "id": "domino",
-    "type": ["3D", "video"],
-    "show": true,
-    "hoverText": "Domino",
-    "highlight":
-    {
-      "img2": false,
-      "img3": false,
-      "video": true
-    },
-    "detail":
-    {
-      "description":"This Project was made in Cinema 4D by a group of three Students.",
-      "img1": "assets/domino/img1.jpg",
-      "thumb1": "assets/domino/thumb/img1.jpg",
-      "img2": "assets/domino/img2.jpg",
-      "thumb2": "assets/domino/thumb/img2.jpg",
-      "img3": "assets/domino/img3.jpg",
-      "thumb3": "assets/domino/thumb/img3.jpg",
-      "video1": "assets/domino/video.mp4",
-      "type1": "video/mp4",
-      "isVideo1": true
-    }
-  },
-  {
-    "id": "visualMusic",
-    "type": ["design"],
-    "show": true,
-    "hoverText": "Music Visualisation",
-    "highlight":
-    {
-      "img2": false,
-      "img3": false,
-      "video": true
-    },
-    "detail":
-    {
-      "description":"The three posters are visualisatizing two songs. Teufelsleiter - by Brandt Brauer Frick, and Boing Boom Tschack - by Kraftwerk.",
-      "img1": "assets/visualMusic/img1.jpg",
-      "thumb1": "assets/visualMusic/thumb/img1.jpg",
-      "img2": "assets/visualMusic/img2.jpg",
-      "thumb2": "assets/visualMusic/thumb/img2.jpg",
-      "img3": "assets/visualMusic/img3.jpg",
-      "thumb3": "assets/visualMusic/thumb/img3.jpg",
-      "video1": "",
-      "type1": ""
-    }
-  },
-  {
     "id": "musicVideo",
     "type": ["video"],
     "show": true,
     "hoverText": "Music Video - Perspektiv",
+    "gridSize": "wide",
     "highlight":
     {
       "img2": false,
@@ -174,10 +104,62 @@
     }
   },
   {
+    "id": "logo",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "Logo Animation",
+    "gridSize": "medium",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This is a project I created in Cinema4D. It´s an animated logo for the Domino-Project.",
+      "img1": "assets/logo/img1.jpg",
+      "thumb1": "assets/logo/thumb/img1.jpg",
+      "img2": "assets/logo/img2.png",
+      "thumb2": "assets/logo/thumb/img2.jpg",
+      "img3": "assets/logo/img3.jpg",
+      "thumb3": "assets/logo/thumb/img3.jpg",
+      "video1": "assets/logo/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
+    "id": "visualMusic",
+    "type": ["design"],
+    "show": true,
+    "hoverText": "Music Visualisation",
+    "gridSize": "tall",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"The three posters are visualisatizing two songs. Teufelsleiter - by Brandt Brauer Frick, and Boing Boom Tschack - by Kraftwerk.",
+      "img1": "assets/visualMusic/img1.jpg",
+      "thumb1": "assets/visualMusic/thumb/img1.jpg",
+      "img2": "assets/visualMusic/img2.jpg",
+      "thumb2": "assets/visualMusic/thumb/img2.jpg",
+      "img3": "assets/visualMusic/img3.jpg",
+      "thumb3": "assets/visualMusic/thumb/img3.jpg",
+      "video1": "",
+      "type1": ""
+    }
+  },
+  {
     "id": "paperPlane",
     "type": ["video", "3D"],
     "show": true,
     "hoverText": "3D Cellshading Paperplane",
+    "gridSize": "wide",
     "highlight":
     {
       "img2": false,
@@ -199,10 +181,37 @@
     }
   },
   {
+    "id": "domino",
+    "type": ["3D", "video"],
+    "show": true,
+    "hoverText": "Domino",
+    "gridSize": "large",
+    "highlight":
+    {
+      "img2": false,
+      "img3": false,
+      "video": true
+    },
+    "detail":
+    {
+      "description":"This Project was made in Cinema 4D by a group of three Students.",
+      "img1": "assets/domino/img1.jpg",
+      "thumb1": "assets/domino/thumb/img1.jpg",
+      "img2": "assets/domino/img2.jpg",
+      "thumb2": "assets/domino/thumb/img2.jpg",
+      "img3": "assets/domino/img3.jpg",
+      "thumb3": "assets/domino/thumb/img3.jpg",
+      "video1": "assets/domino/video.mp4",
+      "type1": "video/mp4",
+      "isVideo1": true
+    }
+  },
+  {
     "id": "metamorph",
     "type": ["video", "design"],
     "show": true,
     "hoverText": "Metamorph",
+    "gridSize": "large",
     "highlight":
     {
       "img2": false,

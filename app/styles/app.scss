@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 $main-color: #44C282;
 
@@ -6,11 +6,18 @@ $grid-heigth: 235.5px;
 $grid-width: $grid-heigth * (16 / 9);
 
 
+@media only screen and (min-width : 480px) {
+    $grid-heigth: 50%;
+}
+
+@media only screen and (min-width : 768px) {
+    $grid-heigth: 100%;
+}
+
 @import "bootstrap.min.scss";
 @import "main.scss";
 @import "about.scss";
 @import "contact.scss";
 @import "portfolio.scss";
 @import "portfolio-content.scss";
-@import "hover-effect.scss";
 @import "project.scss";
