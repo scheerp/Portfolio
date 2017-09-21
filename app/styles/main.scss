@@ -68,7 +68,7 @@
         color: black;
         transition: all ease-in-out 200ms;
         font-family: 'Raleway';
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-right: 3rem;
         margin-bottom: 3rem;
     }
@@ -158,15 +158,17 @@
  
 }
 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px) {    
+}
 
+@media only screen and (min-width : 768px) {
     .content {
         width: 80%;
         margin: 0 10%;
     }
 
     .top-menu {
-        font-size: 2.5rem;
+        font-size: 3rem;
         justify-content: flex-start;
     }
     
@@ -182,12 +184,6 @@
 
     .hamburger{ 
         display: none;
-    }
-}
-
-@media only screen and (min-width : 768px) {
-    .top-menu {
-        font-size: 3rem;
     }
 
     .title {

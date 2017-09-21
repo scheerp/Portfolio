@@ -30,7 +30,7 @@
     "type": ["3D", "video"],
     "show": true,
     "hoverText": "Bubble Equalizer",
-    "gridSize": "wide",
+    "gridSize": "medium",
     "highlight":
     {
       "img2": false,
@@ -82,7 +82,7 @@
     "type": ["video"],
     "show": true,
     "hoverText": "Music Video - Perspektiv",
-    "gridSize": "wide",
+    "gridSize": "medium",
     "highlight":
     {
       "img2": false,
@@ -159,7 +159,7 @@
     "type": ["video", "3D"],
     "show": true,
     "hoverText": "3D Cellshading Paperplane",
-    "gridSize": "wide",
+    "gridSize": "medium",
     "highlight":
     {
       "img2": false,
@@ -185,7 +185,7 @@
     "type": ["3D", "video"],
     "show": true,
     "hoverText": "Domino",
-    "gridSize": "large",
+    "gridSize": "medium",
     "highlight":
     {
       "img2": false,
@@ -211,7 +211,7 @@
     "type": ["video", "design"],
     "show": true,
     "hoverText": "Metamorph",
-    "gridSize": "large",
+    "gridSize": "medium",
     "highlight":
     {
       "img2": false,
