@@ -1,8 +1,35 @@
-<div class="content">
+<div id="content">
+  
   <div class="top-menu">
     {{#link-to 'portfolio' class='title link top-menu-button'}}
       Patrick<span style="font-weight:700">Scheer</span>
     {{/link-to}}
+    
+    <button {{action "toggleBurger"}} class="hamburgerTrigger {{if menuIsOpen "active"}}">
+      <i></i><i></i><i></i>
+    </button>
+
+    {{#if menuIsOpen}}
+        {{#ember-wormhole to="content"}}
+            <div class="overlay">
+              <button {{action "toggleBurger"}} class="hamburgerTrigger {{if menuIsOpen "active"}}">
+                <i></i><i></i><i></i>
+              </button>
+              <button {{action "changeRoute" "portfolio"}} class='overlay-button'>
+                  portfolio
+              </button>
+
+              <button {{action "changeRoute" "about"}} class='overlay-button'>
+                  about
+              </button>
+
+              <button {{action "changeRoute" "contact"}} class='overlay-button'>
+                  contact
+              </button>
+            </div>
+        {{/ember-wormhole}}
+    {{/if}}
+
     <div class="top-menu-buttons">
       {{#link-to 'portfolio' class='top-menu-button link'}}
         portfolio

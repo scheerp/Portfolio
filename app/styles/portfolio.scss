@@ -1,18 +1,33 @@
 @media only screen and (min-width : 320px) {
   .grid {
     display: grid;
-    min-height: 200vh;
+    min-height: 250vh;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
-}
+  }
 
-.grid-item {
+  .item-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding:0 50% 3rem 3rem;
+    color: white;    
+    font-size: 1em;
+    text-decoration: none;
+    opacity: 0;
+    transition: all ease-in-out 300ms;
 
-    font-size: 1.5em;
+    &:hover{
+      text-decoration: none;
+      color: white;
+      opacity: 1;
+      }
+  }
+
+  .grid-item {
     background-size: cover;
     background-position: center;
     transition: all ease-in-out 300ms;
@@ -21,43 +36,46 @@
     margin-bottom: 0;
 
     &::before {
-        content: '';
-        display: block;
-        background: black;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        transition: all ease-in-out 300ms;
-        z-index: -1;
-      }
-      
-      &:hover::before {
-        opacity: 0.8;
-      }
-      
-      &.medium {
-        grid-row: span 2;
-        grid-column: span 2;
-        height: auto;
-      }
-      
-      &.tall {
-        grid-row: span 3;
-        grid-column: span 2;
-        height: auto;
-      }
-        
-      &:hover {
-        color: white;
-        text-shadow: 0 0 5px rgba(0, 0, 0, 0);
-      }
+      content: '';
+      display: block;
+      background: black;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transition: all ease-in-out 300ms;
+      z-index: -1;
     }
+    
+    &:hover::before {
+      opacity: 0.8;
+    }
+    
+    &.medium {
+      grid-row: span 2;
+      grid-column: span 2;
+      height: auto;
+    }
+    
+    &.tall {
+      grid-row: span 3;
+      grid-column: span 2;
+      height: auto;
+    }
+      
+    &:hover {
+      color: white;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    }
+  }
 }
 
 @media only screen and (min-width : 480px) {
+  .grid {
+    min-height: 400vh;
+}
 }
 
 @media only screen and (min-width : 768px) {

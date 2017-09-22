@@ -1,10 +1,142 @@
+@media only screen and (min-width : 320px) {
+
+  .highlight{
+    display: block;
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .imgRow{
+    display: block;
+    height: 50rem;
+    margin-bottom: 2rem;
+  }
+
+  .description-text{
+    align-self: flex-end;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    padding-right: 0;
+  }
+
+  .description{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .highlightImg{
+    width: 100%;
+    height: 27rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .secondaryImg{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+  }
+
+  .types{
+    font-size: 1.7rem;
+    font-weight: 200;
+    padding-bottom: 3rem;
+    margin-bottom: auto;
+  }
+
+  .project-title {
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 200ms;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .video {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin: 2rem 0 0 0;
+  }
+}
+
+@media only screen and (min-width : 480px) {
+  .imgRow{
+    display: flex;
+    justify-content: space-between;
+    height: 25rem;
+  }
+
+  .secondaryImg{
+    width: 49%;
+    height: 100%;
+    margin-bottom: 0;
+  }
+}
+
 @media only screen and (min-width : 768px) {
+  .highlight{
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  .imgRow{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description{
+    width: 50%;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .highlightImg{
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .project-title {
+    font-size: 3.5rem;
+  }
+
+  .description-text{
+    font-size: 2.5rem;
+  }
+
+  .imgRow{
+    height: -webkit-fill-available;
+  }
+
+  .highlight{
+    margin-bottom: 5rem;
+  }
+
+}
+
+
+
+
+
+
   .project{
     display: flex;
     flex-direction: column;
   }
 
-  .highlight {
+
+  .highlight1 {
     width: 100%;
     align-self: center;
   }
@@ -31,17 +163,11 @@
       border-bottom-style: none;
   }
 
-  .description{
-    margin-bottom: 5rem;
-    margin-top: 2rem;
-    margin-left: 10%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
-  }
+  
 
   .back{
   text-decoration: none;
   color: black;
   align-self: flex-end;
   }
-}
+

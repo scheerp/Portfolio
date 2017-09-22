@@ -6,10 +6,20 @@
         width: 100%;
     }
 
-    .content {
+    a {
+        text-decoration: none;
+    
+        &:hover{
+          text-decoration: none;
+          }
+    }
+
+    #content {
         display: block;
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        padding: 5% 10% 0 10%;
+        margin: 0;
+        transition: all ease-in-out 500ms;
     }
 
     .header {
@@ -46,14 +56,6 @@
         display: none;
     }
 
-    .hamburger{
-        padding-bottom: 0;
-        display: flex;
-        flex-direction: row;
-        font-size: 2rem;
-        justify-content: flex-start;
-    };
-
     .top-menu-button {
         color: black;
         font-family: 'Raleway', sans-serif;
@@ -71,6 +73,7 @@
         font-size: 3rem;
         margin-right: 3rem;
         margin-bottom: 3rem;
+        padding-left: 0;
     }
 
     button:hover{
@@ -89,15 +92,9 @@
         min-width: 270px;
     }
 
-    button h3{
-        font-size: 19px;
-        text-align: center;
-    }
-
     button{
-        width: 20%;
         background-color: white ;
-        border: none;
+        border: 0;
     }
 
     .welcome {
@@ -115,12 +112,12 @@
     }
 
     .content-wrapper {
-        margin: 0 5% 0 2%;
+        margin: 0;
         padding-bottom: 10%;
         display: flex;
         flex-direction: column;
         border-bottom-style: none;   
-        width: 90%;
+        width: 100%;
 
         &__about {
             margin: 0 17% 0 17%;
@@ -162,33 +159,27 @@
 }
 
 @media only screen and (min-width : 768px) {
-    .content {
-        width: 80%;
-        margin: 0 10%;
-    }
-
-    .top-menu {
-        font-size: 3rem;
-        justify-content: flex-start;
-    }
-    
-    .top-menu-buttons { 
-        padding-bottom: 0;
-        display: flex;
-        flex-direction: row;
-        font-size: 3rem;
-        padding-top: 1%;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .hamburger{ 
-        display: none;
+    #content {
+        width: 100%;
+        padding: 5% 10% 0 10%;
+        margin:0;
     }
 
     .title {
         font-size: 3.5rem;
         padding-bottom: 0;
+    }
+     .top-menu {
+        font-size: 3rem;
+        justify-content: flex-start;
+    }
+
+    .top-menu-buttons { 
+        display: flex;
+        font-size: 3.5rem;
+        padding-top: 1%;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }
 
@@ -197,21 +188,13 @@
     .title {
         font-size: 4rem;
         padding-bottom: 4rem;
-    }
+    }   
 
-    .top-menu-buttons { 
-        display: flex;
-        flex-direction: column;
-        font-size: 3.5rem;
-        padding-top: 1%;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .content {
+    #content {
         width: 100%;
         display: flex;
-        margin: 1rem;
+        margin: 0;
+        padding: 1rem;
         font-size: 1.2rem;
         line-height: 1.45;  
         transition: all ease-in-out 200ms;
@@ -225,6 +208,9 @@
         justify-content: flex-start;
         font-size: 3rem;
     }
+    .top-menu-buttons { 
+        flex-direction: column;
+    }
 
     .top-menu-button {
         color: black;
@@ -235,12 +221,13 @@
     }
 
     .content-wrapper {
-        margin-top: 5%;
+        margin-top: 10rem;
+        margin-left: 0;
         padding-bottom: 12%;
         display: flex;
         flex-direction: column;
         border-bottom-style: none;   
-        width: 70%;
+        width: 65%;
 
         &__about {
             margin: 0 17% 0 17%;

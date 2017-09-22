@@ -22,7 +22,7 @@
       "thumb3": "assets/flame/thumb/img3.jpg",
       "video1": "assets/flame/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -48,7 +48,7 @@
       "thumb3": "assets/bubbleEqualizer/thumb/img3.jpg",
       "video1": "assets/bubbleEqualizer/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -74,7 +74,7 @@
       "thumb3": "assets/gmh/thumb/img3.jpg",
       "video1": "assets/gmh/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -100,7 +100,7 @@
       "thumb3": "assets/musicVideo/thumb/img3.jpg",
       "video1": "assets/musicVideo/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -126,7 +126,7 @@
       "thumb3": "assets/logo/thumb/img3.jpg",
       "video1": "assets/logo/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -177,7 +177,7 @@
       "thumb3": "assets/paperPlane/thumb/img3.jpg",
       "video1": "assets/paperPlane/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -203,7 +203,7 @@
       "thumb3": "assets/domino/thumb/img3.jpg",
       "video1": "assets/domino/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   },
   {
@@ -229,7 +229,7 @@
       "thumb3": "assets/metamorph/thumb/img3.jpg",
       "video1": "assets/metamorph/video.mp4",
       "type1": "video/mp4",
-      "isVideo1": true
+      "hasVideo": true
     }
   }
 ]

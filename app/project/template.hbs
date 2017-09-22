@@ -1,12 +1,24 @@
-<div class="jumbotron">
-  <h2 class="header">{{model.hoverText}}</h2>
-</div>
-
-<div class="content-wrapper content-wrapper--project">
-  {{#link-to 'portfolio' class="top-menu-button back button"}} 
-    <h3>back ></h3>
-  {{/link-to}}
-  <div class="project">
-    {{project-detail model=model}}
+<div class="content-wrapper">
+  <div class="highlight">
+    <div class="description">
+      <p class="project-title">{{model.hoverText}}</p>
+      <div class="types">
+        {{#each model.type as |type|}}
+            {{type}}
+        {{/each}}
+      </div>
+      <p class="description-text">{{model.detail.description}}</p>
+    </div>
+    <div class="highlightImg" style="background-image:url({{model.detail.img1}})"></div>
   </div>
+  <div class="imgRow">
+    <div class="secondaryImg" style="background-image:url({{model.detail.img3}})"></div>
+    <div class="secondaryImg" style="background-image:url({{model.detail.img2}})"></div>
+  </div>
+
+  {{#if model.detail.hasVideo}}
+    <video class="video" poster="{{model.detail.img1}}" controls preload loop>
+        <source src={{model.detail.video1}} type={{model.detail.videoType}}>
+    </video>
+  {{/if}}
 </div>
