@@ -22,13 +22,6 @@
         transition: all ease-in-out 500ms;
     }
 
-    .header {
-        font-size: 5rem;
-        margin-bottom: 5rem;
-        margin-top: 2rem;
-        margin-left: 17%;
-    }
-
     .link:link, .link:visited{
     text-decoration: none;
     color: black;
@@ -70,9 +63,8 @@
         color: black;
         transition: all ease-in-out 200ms;
         font-family: 'Raleway';
-        font-size: 3rem;
-        margin-right: 3rem;
-        margin-bottom: 3rem;
+        font-size: 3.5rem;
+        margin: 0 3rem 3rem 0;
         padding-left: 0;
     }
 
@@ -113,7 +105,7 @@
 
     .content-wrapper {
         margin: 0;
-        padding-bottom: 10%;
+        padding-bottom: 0;
         display: flex;
         flex-direction: column;
         border-bottom-style: none;   
@@ -152,10 +144,38 @@
     .description{
         display: block;
     }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 7rem 0 5rem 0;
+        margin-top: 5rem;
+        background-color: #F8F8F8;
+    }
+
+    .footer-text{
+        align-self: auto;
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+        color: #323232;
+        width: unset;
+        padding: 0;
+    }
+
+    .footer-link{
+        font-size:1.4rem;
+        color: #323232;
+    }
  
 }
 
 @media only screen and (min-width : 480px) {    
+    .footer-link{
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width : 768px) {
@@ -166,7 +186,6 @@
     }
 
     .title {
-        font-size: 3.5rem;
         padding-bottom: 0;
     }
      .top-menu {
@@ -181,6 +200,23 @@
         justify-content: space-between;
         align-items: flex-start;
     }
+
+    .top-menu-button { 
+        padding: 0 2rem;
+    }
+
+    .footer{
+        padding: 7rem 0 7rem 0;
+    }
+
+    .footer-text{
+        font-size: 1.8rem;
+    }
+
+    .footer-link{
+        font-size:1.6rem;
+    }
+
 }
 
 @media only screen and (min-width : 1200px) {
@@ -211,6 +247,10 @@
     .top-menu-buttons { 
         flex-direction: column;
     }
+    
+    .top-menu-button { 
+        padding: 2rem 0;
+    }
 
     .top-menu-button {
         color: black;
@@ -222,12 +262,12 @@
 
     .content-wrapper {
         margin-top: 10rem;
-        margin-left: 0;
-        padding-bottom: 12%;
+        margin-left: 3.5%;
+        padding-bottom: 0;
         display: flex;
         flex-direction: column;
         border-bottom-style: none;   
-        width: 65%;
+        width: 60%;
 
         &__about {
             margin: 0 17% 0 17%;
@@ -236,5 +276,13 @@
             flex-direction: row;
             border-bottom-style: none;
         }
+    }
+
+    .footer-text{
+        font-size: 2rem;
+    }
+
+    .footer-link{
+        font-size:1.8rem;
     }
 }

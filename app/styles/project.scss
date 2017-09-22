@@ -1,5 +1,4 @@
 @media only screen and (min-width : 320px) {
-
   .highlight{
     display: block;
     height: 100%;
@@ -27,6 +26,7 @@
     flex-direction: column;
     width: 100%;
     padding-right: 0;
+    margin-bottom: 3rem;
   }
 
   .highlightImg{
@@ -42,6 +42,10 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 2rem;
+  }
+
+  .paddyImg{
+    background-position: left;
   }
 
   .types{
@@ -87,6 +91,7 @@
   .highlight{
     display: flex;
     margin-bottom: 3rem;
+    min-height: 45rem;
   }
 
   .imgRow{
@@ -97,7 +102,7 @@
   .description{
     width: 50%;
     padding-right: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
 
   .highlightImg{
@@ -107,67 +112,28 @@
 }
 
 @media only screen and (min-width : 1200px) {
-  .project-title {
-    font-size: 3.5rem;
-  }
-
   .description-text{
     font-size: 2.5rem;
   }
 
   .imgRow{
-    height: -webkit-fill-available;
+    min-height: 40rem;
+  }
+
+  @-moz-document url-prefix() { 
+    .imgRow {
+      height: 40rem;
+    }
+    .highlight{
+      margin-bottom: 5rem;
+      height: -moz-min-content;
+    }
   }
 
   .highlight{
     margin-bottom: 5rem;
+    height: -webkit-fill-available;
+    height: 100%;
   }
 
 }
-
-
-
-
-
-
-  .project{
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  .highlight1 {
-    width: 100%;
-    align-self: center;
-  }
-
-  .picture-bar{
-    display: flex;
-  }
-
-  .bar-item{
-    width: (100% / 3);
-  }
-
-  video {
-      width: 100%;
-      display: flex;
-      margin: 2% 0 0% 0;
-  }
-
-  .content-wrapper--project {
-      margin: 0 17% 0 17%;
-      padding-bottom: 0.5%;
-      display: flex;
-      flex-direction: column;
-      border-bottom-style: none;
-  }
-
-  
-
-  .back{
-  text-decoration: none;
-  color: black;
-  align-self: flex-end;
-  }
-

@@ -22,10 +22,6 @@
               <button {{action "changeRoute" "about"}} class='overlay-button'>
                   about
               </button>
-
-              <button {{action "changeRoute" "contact"}} class='overlay-button'>
-                  contact
-              </button>
             </div>
         {{/ember-wormhole}}
     {{/if}}
@@ -38,12 +34,13 @@
       {{#link-to 'about' class='top-menu-button link'}}
         about
       {{/link-to}}
-
-      {{#link-to 'contact' class='top-menu-button link'}}
-        contact
-      {{/link-to}}
     </div>
   </div>
-
-  {{outlet}}
+  <div class="content-wrapper">
+    {{outlet}}
+  </div>
+</div>
+<div class="footer">
+  <p class='footer-text'> Patrick Scheer - Augsburg - 2017</p>
+  <a class='link footer-link' href="mailto:contact@patrick-scheer.com">Contact@Patrick-Scheer.com</a> 
 </div>
