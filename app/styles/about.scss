@@ -6,17 +6,16 @@
     }
 
     .about-img {
-        background-image: url('images/paddy.jpg');
         max-height: 42rem;
         width: 100%;
         height: -webkit-fill-available;
-        background-size: cover;
-        background-position: center;
+        object-fit: cover;
         margin-bottom: 2rem;
     }
 
     .about-text {
-        padding-top: 3rem;
+        padding-top: 4rem;
+        margin-bottom: 3rem;
         height: 100%;
         width: 100%;
         font-size: 2rem;

@@ -1,9 +1,13 @@
 <div class="grid">
     {{#each model as |project|}}
-      <div style="background-image:url({{project.detail.thumb1}})"
-      class="grid-item {{project.gridSize}}">    
-        {{#link-to "project" project.id class="item-text"}}
-          <p>{{project.hoverText}}</p>
+      <div class="grid-item {{project.gridSize}}">
+        {{#link-to "project" project.id class="grid-link"}}
+          {{#lazy-image url=project.detail.thumb1 class="grid-img"}}
+           {{little-spinner}}
+          {{/lazy-image}}
+          <div class="item-text">
+            <p class="img-text">{{project.hoverText}}</p>
+          </div>      
         {{/link-to}}
       </div>
     {{/each}}

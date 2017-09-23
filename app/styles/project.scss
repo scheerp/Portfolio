@@ -29,14 +29,20 @@
     margin-bottom: 3rem;
   }
 
-  .highlightImg{
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .highlightImgDiv{
     width: 100%;
     height: 27rem;
     background-size: cover;
     background-position: center;
   }
 
-  .secondaryImg{
+  .secondaryImgDiv{
     width: 100%;
     height: 50%;
     background-size: cover;
@@ -45,7 +51,7 @@
   }
 
   .paddyImg{
-    background-position: left;
+    object-position: left;
   }
 
   .types{
@@ -80,7 +86,7 @@
     height: 25rem;
   }
 
-  .secondaryImg{
+  .secondaryImgDiv{
     width: 49%;
     height: 100%;
     margin-bottom: 0;
@@ -100,14 +106,12 @@
   }
 
   .description{
-    width: 50%;
     padding-right: 3rem;
     margin-bottom: 0;
   }
 
-  .highlightImg{
+  .highlightImgDiv{
     height: auto;
-    width: 50%;
   }
 }
 

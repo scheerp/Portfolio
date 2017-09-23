@@ -3,15 +3,20 @@
 }
 
 #preloader {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+
+    &__small {
+        position: relative;
+    }
 }
+
 #loader {
     display: block;
-    position: relative;
+    position: fixed;
     left: 50%;
     top: 50%;
     width: 150px;
@@ -23,6 +28,7 @@
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
+
 #loader:before {
     content: "";
     position: absolute;
@@ -36,6 +42,7 @@
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
+
 #loader:after {
     content: "";
     position: absolute;
@@ -49,6 +56,7 @@
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
+
 @-webkit-keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);
@@ -61,6 +69,7 @@
         transform: rotate(360deg);
     }
 }
+
 @keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);
@@ -72,4 +81,24 @@
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+.loader{
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  padding-left: 20rem;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+  Set the color of the icon
+*/
+svg path,
+svg rect{
+  fill: $main-color;
 }

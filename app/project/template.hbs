@@ -8,11 +8,23 @@
     </div>
     <p class="description-text">{{model.detail.description}}</p>
   </div>
-  <div class="highlightImg" style="background-image:url({{model.detail.img1}})"></div>
+  <div class="highlightImgDiv">
+    {{#lazy-image url=model.detail.img1 class="img"}}
+      {{little-spinner}}
+    {{/lazy-image}}
+  </div>
 </div>
 <div class="imgRow">
-  <div class="secondaryImg {{if (eq model.id "gmh") "paddyImg"}}" style="background-image:url({{model.detail.img3}})"></div>
-  <div class="secondaryImg" style="background-image:url({{model.detail.img2}})"></div>
+  <div class="secondaryImgDiv">
+    {{#lazy-image url=model.detail.img3 class="img"}}
+      {{little-spinner}}
+    {{/lazy-image}}
+  </div>
+  <div class="secondaryImgDiv">
+    {{#lazy-image url=model.detail.img2 class="img"}}
+      {{little-spinner}}
+    {{/lazy-image}}
+  </div>
 </div>
 
 {{#if model.detail.hasVideo}}
